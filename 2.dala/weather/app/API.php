@@ -1,7 +1,7 @@
 <?php
 
 class API {
-    protected string $apiKey; //e6a6d34da4273fdaf713bffd4f494c4e
+    protected string $apiKey; 
 
     public function __construct($apiKey) {
         $this->apiKey = $apiKey;
